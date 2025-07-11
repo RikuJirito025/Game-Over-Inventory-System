@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel - Game Inventory</title>
+  <link rel="stylesheet" href="Style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="nav">
+    <a href="AdminPage.html">
+      <img src="Logo.png" alt="Logo">
+    </a>
+
+    <form action="index.php" method="get" style="display: inline;">
+      <button class="tab-link" type="submit">Back to Store</button>
+    </form>
+
+    <form action="logout.php" method="post" style="display: inline;">
+      <button class="tab-link" type="submit">LOGOUT</button>
+    </form>
+  </div>
+</div>
+
+<div class="main">
+  <h1 style="text-align: center;">Welcome Admin!</h1>
+
+  <div class="center-tabs">
+    <button class="tab-link" onclick="location.href='ManageGames.php'">Manage Games</button>
+    <button class="tab-link" onclick="location.href='ViewAccounts.php'">View All Accounts</button>
+  </div>
+</div>
+
+</body>
+</html>
